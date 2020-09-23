@@ -1,5 +1,9 @@
 from random import randint
 import os
+
+# Aqui eu tentei copiar a mecânica de quimica de um jogo chamado Space Station 13
+# Me considero ainda iniciante em python, então qualquer dica é bem vinda!
+
 os.system('cls')
 tem_Beaker = False
 beaker = {"total": 0}
