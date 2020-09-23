@@ -402,6 +402,22 @@ while True:
                     novo(res, minimo, 7)
                     verify(ab, minimo, 5)
                     verify(bc, minimo, 2)
+        def daidai(ab, bc, res):
+            if ab in beaker:
+                if bc in beaker:
+                    lista = [beaker[ab]/10, beaker[bc]/10]
+                    minimo = min(lista)
+                    novo(res, minimo, 20)
+                    verify(ab, minimo, 10)
+                    verify(bc, minimo, 10)
+        def tedfae(ab, bc, res):
+            if ab in beaker:
+                if bc in beaker:
+                    lista = [beaker[ab]/5, beaker[bc]]
+                    minimo = min(lista)
+                    novo(res, minimo, 6)
+                    verify(ab, minimo, 5)
+                    verify(bc, minimo)
                             
         merfaefae("oxigenio", "potassio", "nitrogenio", "salitre")
         mer("combustivel", "carbono", "hidrogenio", "oleo")
@@ -519,6 +535,15 @@ while True:
             jorfae("oxigenio", "carbono", "dioxido_de_carbono")
         jor("spacedrugs", "sangue", "tapete")
         ted("citrico_triplo", "crioxadona", "spacedrugs", "radio", "plasma", "reagente_colorido")
+        tedfae("etanol", "oleo de capsaicina", "capsaicina_concentrada")
+        if temperatura >= 524:
+            if "celulose" in beaker:
+                beaker["celulose_carbonizada"] = beaker["celulose"]
+                del beaker["celulose"]
+        dos("reagente_colorido", "reagente_estranho", "nutricao", "sangue", "corgium")
+        mer("oxigenio", "potassio", "açucar", "criptobiolina")
+        jorfaefae("plasma", "etanol", "sodio", "agente_secante")
+        jor("litio", "hidrogenio", "agente_espumante")
 
     else:
         if command == "empty":
