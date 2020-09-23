@@ -14,6 +14,7 @@ nome = ""
 arq = {}
 print("pense nisso como uma máquina de refrigerante!\n")
 print("para ter ajuda digite: help")
+exp = False
 
 while True:
     command = input(">> ")
@@ -476,6 +477,40 @@ while True:
         tedjorfaefae("plasma", "oxido_nitroso", "epinefrina", "etanol", '"happy"')
         mer("litio", "mercurio", "açucar", "spacedrugs")
         tedjor("cafe", "epinefrina", "bomba")
+        mer("ferro", "oxigenio", "hidrogenio", "estabilizador")
+        jorjorfae("carbono", "fluor", "acido_sulfurico", "fluoro-sufactante")
+        mer("fosforo", "potassio", "açucar", "fumaça")
+        dos("fosforo", "potassio", "açucar", "estabilizador", "po_de_fumaça")
+        mer("aluminio", "potassio", "enxofre", "po_de_flash")
+        mer("fosforo", "acido_sulfurico", "plasma", "flogisto")
+        mer("oleo", "combustivel", "etanol", "napalm")
+        mer("oxigenio", "cola", "fosforo", "po_sonico")
+        mer("plasma", "radio", "fosforo", "pyrosium")
+        mer("agua", "plasma", "nitrogenio", "criostilano")
+        if temperatura >= 424:
+            merfae("fluor", "cloro", "trifluoreto_de_cloro")
+        dos("carbono", "mercurio", "nitrogenio", "oxigenio", "sorium")
+        mer("carbono", "plasma", "radio", "materia_escura_liquida")
+        mer("multiver", "salitre", "enxofre", "polvora")
+        mer("glicerol", "acido_nitrico", "acido_sulfurico", "nitroglicerina")
+        if "nitroglicerina" in beaker:
+            exp = True
+        if temperatura >= 404:
+            jor3fae("fenol", "oxido_de_acetona", "acido_nitrico", "ouro", "RDX")
+            if temperatura >= 474:
+                exp = True
+        lvl = randint(401, 499)
+        if temperatura >= lvl:
+            mer("oxido_de_acetona", "acido_nitrico", "pentaeritricol", "TaTP")
+            exp = True
+        if "potassio" in beaker and "agua" in beaker:
+            exp = True
+        jor("ferro", "uranio", "EMP")
+        if temperatura >= 420:
+            mer("plasma", "prata", "polvora", "teslium")
+            if "agua" in beaker:
+                exp = True
+        mer("aluminio", "ferro", "oxigenio", "thermite")
 
     else:
         if command == "empty":
@@ -492,4 +527,7 @@ while True:
     if command == "end":
         break
     beaker["total"] = sum(beaker.values())-beaker["total"]
-    arq[nome] = beaker           
+    arq[nome] = beaker  
+    if exp:
+        print("a maquina explodiu")
+        break
