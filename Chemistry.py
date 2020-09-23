@@ -511,6 +511,14 @@ while True:
             if "agua" in beaker:
                 exp = True
         mer("aluminio", "ferro", "oxigenio", "thermite")
+        if temperatura >= 395:
+            mer("soda_caustica", "acido_sulfurico", "rádio", "baldium")
+        if temperatura >= 374:
+            daidai("gibs", "oxigenio", "vela")
+        if temperatura >= 777:
+            jorfae("oxigenio", "carbono", "dioxido_de_carbono")
+        jor("spacedrugs", "sangue", "tapete")
+        ted("citrico_triplo", "crioxadona", "spacedrugs", "radio", "plasma", "reagente_colorido")
 
     else:
         if command == "empty":
