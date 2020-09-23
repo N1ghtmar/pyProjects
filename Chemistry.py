@@ -475,7 +475,7 @@ while True:
         mer("epinefrina", "atropina", "morpina", "aranesp")
         tedjorfaefae("plasma", "oxido_nitroso", "epinefrina", "etanol", '"happy"')
         mer("litio", "mercurio", "açucar", "spacedrugs")
-        tedjor("cafe", "epinefrina")
+        tedjor("cafe", "epinefrina", "bomba")
 
     else:
         if command == "empty":
