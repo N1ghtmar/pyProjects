@@ -413,7 +413,7 @@ while True:
         def daidaidai(ab, bc, cd, res):
             if ab in beaker:
               if bc in beaker:
-                  if cd in beaker
+                  if cd in beaker:
                     lista = [beaker[ab]/10, beaker[bc]/10, beaker[cd]/10]
                     minimo = min(lista)
                     novo(res, minimo, 30)
