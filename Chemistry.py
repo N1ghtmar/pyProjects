@@ -620,6 +620,26 @@ while True:
         jor("virus_alimentar", "uranio", "gel_de_uranio_em_decomposiçao")
         tedfae("uranio", "plasma_de_virus", "gel_de_uranio_instavel")
         daidaidai("uranio", "plasma", "aluminio", "gel_de_urario_estavel")
+        merfaefae("cloro", "etanol", "agua", "hidrato_de_cloral")
+        mer("multiver", "hidrogenio", "silicio", "toxina_mindbreak")
+        jorfaefae("uranio", "agua", "carbono", "toxina_muda")
+        merfaefae("po_de_mico", "mutagenico_instavel", "leite", "toxina_quebra-osso")
+        jor("toxina_de_mutaçao_de_limo", "mutagenico_instavel", "toxina_mulligan")
+        mer("salbutamol", "plasma", "hidrogenio", "lexorim")
+        mer("acetona", "dietmalina", "enxofre", "sulfonal")
+        mer("efedrina", "dietmalina", "mercurio", "lipolicida")
+        faetem("spacedrugs", "fentanil", 674)
+        if temperatura >= 380:
+            mer("oleo", "amonia", "oxigenio", "cianeto")
+            dos("flour", "hidrogenio", "potassio", "acido_sulfurico", "acido_fluorossulfurico")
+        mer("carpotoxina", "morfina", "cobre", "po_de_zumbi")
+        jor("epinefrina", "po_de_zumbi", "po_de_ghoul")
+        mer("multiver", "amonia", "combustivel", "po_de_mico")
+        dos("formaldeido", "cloro", "sodio", "litio", "heparina")
+        mer("teslium", "toxina_mindbreak", "fentanil", "rotatium")
+        mer("haloperidol", "impedrezene", "radio", "anacea")
+        if temperatura >= 480:
+            mer("peroxido_de_hidrogenio", "nitrogenio", "acido_fluorossulfurico", "acido_nitrico")
 
     else:
         if command == "empty":
