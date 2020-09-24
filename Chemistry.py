@@ -423,7 +423,7 @@ while True:
         def tedmerjor(ab, bc, cd, res):
             if ab in beaker:
               if bc in beaker:
-                  if cd in beaker
+                  if cd in beaker:
                     lista = [beaker[ab]/5, beaker[bc]/3, beaker[cd]/2]
                     minimo = min(lista)
                     novo(res, minimo, 10)
