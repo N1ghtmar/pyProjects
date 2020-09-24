@@ -410,6 +410,26 @@ while True:
                     novo(res, minimo, 20)
                     verify(ab, minimo, 10)
                     verify(bc, minimo, 10)
+        def daidaidai(ab, bc, cd, res):
+            if ab in beaker:
+              if bc in beaker:
+                  if cd in beaker
+                    lista = [beaker[ab]/10, beaker[bc]/10, beaker[cd]/10]
+                    minimo = min(lista)
+                    novo(res, minimo, 30)
+                    verify(ab, minimo, 10)
+                    verify(bc, minimo, 10)
+                    verify(cd, minimo, 10)
+        def tedmerjor(ab, bc, cd, res):
+            if ab in beaker:
+              if bc in beaker:
+                  if cd in beaker
+                    lista = [beaker[ab]/5, beaker[bc]/3, beaker[cd]/2]
+                    minimo = min(lista)
+                    novo(res, minimo, 10)
+                    verify(ab, minimo, 5)
+                    verify(bc, minimo, 3)
+                    verify(cd, minimo, 2)
         def tedfae(ab, bc, res):
             if ab in beaker:
                 if bc in beaker:
@@ -544,6 +564,25 @@ while True:
         mer("oxigenio", "potassio", "açucar", "criptobiolina")
         jorfaefae("plasma", "etanol", "sodio", "agente_secante")
         jor("litio", "hidrogenio", "agente_espumante")
+        if temperatura <= 200:
+            mer("estabilizador", "fluoro-surfactante", "carbono", "espuma_de_extintor")
+        merfae("oleo", "acido_sulfurico", "glicerol")
+        mer("mercurio", "oxigenio", "açucar", "impredezene")
+        mer("reagente_colorido", "spacedrugs", "radio", "tinta_de_cabelo")
+        jor("açucar", "suco_de_banana", "gás_do_riso")
+        daidaidai("reagente_colorido", "spacedrugs", "radio", "carne")
+        merfaefae("ferro", "acido_fluorossulfurico", "agente_espumante", "espuma_de_metal")
+        merfaefae("agente_espumante", "acetona", "ferro", "agente_inteligente_espumante")
+        merfaefae("aluminio", "agente_inteligente_espumante", "acido_fluorossulfurico", "espuma_de_metal_inteligente")
+        if temperatura >= 525:
+            jorjorfae("amonia", "oxigenio", "nitrogenio", "oxido_nitroso")
+        if temperatura >= 374:
+            tedmerjor("oleo", "cinzas", "acido_sulfurico", "plastico")
+            daidai("soda_caustica", "gibs", "sabonete")
+        jor("amonia", "agua", "detergente")
+        mer("oxigenio", "silicio", "agua", "lubrificante")
+        mer("multiver", "cloro", "etanol", "esterilizina")
+        tedfae("sangue", "crioxadona")
 
     else:
         if command == "empty":
