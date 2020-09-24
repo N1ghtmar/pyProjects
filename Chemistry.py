@@ -438,6 +438,26 @@ while True:
                     novo(res, minimo, 6)
                     verify(ab, minimo, 5)
                     verify(bc, minimo)
+        def tedtedfae(ab, bc, cd, res):
+            if ab in beaker:
+                if bc in beaker:
+                  if cd in beaker:
+                    lista = [beaker[ab]/5, beaker[bc]/5, beaker[cd]]
+                    minimo = min(lista)
+                    novo(res, minimo, 11)
+                    verify(ab, minimo, 5)
+                    verify(bc, minimo, 5)
+                    verify(cd, minimo)
+        def merjorfae(ab, bc, cd, res):
+            if ab in beaker:
+                if bc in beaker:
+                    if cd in beaker:
+                        lista = [beaker[ab]/3, beaker[bc]/2, beaker[cd]]
+                        minimo = min(lista)
+                        novo(res, minimom, 6)
+                        verify(ab, minimo, 3)
+                        verify(bc, minimo, 2)
+                        verify(cd, minimo)
                             
         merfaefae("oxigenio", "potassio", "nitrogenio", "salitre")
         mer("combustivel", "carbono", "hidrogenio", "oleo")
@@ -582,7 +602,24 @@ while True:
         jor("amonia", "agua", "detergente")
         mer("oxigenio", "silicio", "agua", "lubrificante")
         mer("multiver", "cloro", "etanol", "esterilizina")
-        tedfae("sangue", "crioxadona")
+        tedfae("sangue", "crioxadona", "carne_sintetica")
+        merjorfae("formaldeido", "oligomeros_de_polipirilio", "celulose", "sutura_medicada")
+        jorjorfae("celulose", "suco_de_aloe", "esterilizina", "malha_regenerativa")
+        mer("toxina_mindbreaker", "sinaptizina", "agua", "pax")
+        jorfaefae("nutricao", "suco_de_banana", "gibs", "pó_de_macaco")
+        tedfae("agua", "eletricidade", "eletronise")
+        if temperatura >= 374:
+            tedtedfae("creme", "vinho_lagarto", "reagente_estranho", "grito")
+        jor("agua", "leite", "virus_alimentar")
+        jor("virus_alimentar", "sinaptizina", "ração_de_virus")
+        mer("cloro", "sodio", "radio", "mutageno_instavel")
+        jor("mutageno_instavel", "virus_alimentar", "agar_mutagenico")
+        jor("agar_mutagenico", "salina-glicose", "agar_de_sacarose")
+        jor("plasma_de_virus", "sinaptizina", "plasma_de_virus_enfraquecido")
+        jor("virus_alimentar", "plasma", "plasma_de_virus")
+        jor("virus_alimentar", "uranio", "gel_de_uranio_em_decomposiçao")
+        tedfae("uranio", "plasma_de_virus", "gel_de_uranio_instavel")
+        daidaidai("uranio", "plasma", "aluminio", "gel_de_urario_estavel")
 
     else:
         if command == "empty":
